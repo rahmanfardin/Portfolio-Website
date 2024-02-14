@@ -1,9 +1,8 @@
-body {
-  display: flex;
-  justify-content: space-between;
-  /*align-items: center;-->*/
-  /*height: 35vh;*/
+body{
   margin: 5%;
+}
+.container {
+  display: flex;
 }
 p {
   font-size: 16px;
@@ -18,11 +17,13 @@ p {
 #text-container {
   flex: 1;
   padding: 20px;
+  float: left;
 }
 
 #image-container {
   flex: 1;
-  text-align: center;
+  text-align: right;
+  float: right;
 }
 
 #image-container img {
@@ -31,7 +32,7 @@ p {
 }
 #table1 {
   border-collapse: collapse;
-  width: 100%;
+  width: 700px;
   margin-bottom: 20px;
 }
 
