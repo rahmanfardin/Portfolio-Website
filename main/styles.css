@@ -16,8 +16,9 @@ p {
 }
 #text-container {
   flex: 1;
-  padding: 20px;
-  float: left;
+  
+  text-align:left;
+  margin-top: 70px;
 }
 
 #image-container {
